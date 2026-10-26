@@ -1,9 +1,9 @@
 cask "noteline" do
   arch arm: "", intel: "-Intel"
 
-  version "0.2.34"
-  sha256 arm: "536752139a6c5e350c4824d3776e29cc0c669b46f505c4665a568d75fbcbc41c",
-         intel: "a307ed614373a26359ab2ce736088eb04a9cd332aeb8927269592d8f38df52e4"
+  version "0.2.35"
+  sha256 arm: "278f823df90c86c9db9ee5b8419b6fc2c6b241378c91d3e780b115f508bd0215",
+         intel: "207546506cb26bb6c6838796a7e41c07ca697ca3270c57c8ca0529ce31139b50"
 
   url "https://github.com/flowlab-works/noteline-releases/releases/download/v#{version}/Noteline#{arch}.dmg"
   name "Noteline"
